@@ -108,3 +108,4 @@ def test_load_covariance_dataset():
 def test_invalid_input():
     with pytest.raises(ValueError):
         load_dataset("non_existent_dataset")
+

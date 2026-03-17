@@ -13,6 +13,7 @@ except ImportError:
 from pgmpy.global_vars import logger
 
 
+
 def get_example_model(model: str):
     """
     Fetches the specified model from bnlearn repository and returns a
